@@ -23,5 +23,5 @@ $form.on('submit', function(event) {
 		text: $message.val()
 	});
 
-	$form.$message.val('');
+	$message.val('');
 });
