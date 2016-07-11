@@ -10,8 +10,8 @@ var now = moment();
 
 var timestamp = 1468265249000;
 
-var timestampMoment = moment.utc(timestamp);
+var momentTimestamp = moment.utc(timestamp);
 
 
 
-console.log(timestampMoment.local().format('LT'));
+console.log(momentTimestamp.local().format('LT'));
